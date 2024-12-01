@@ -735,6 +735,11 @@ margin-top: 100px;
 margin-left: 40px;
 }
 
+.company a{
+  text-decoration: none;
+  color: white;
+}
+
 .company h1{
   width: 92px;
 height: 60px;
