@@ -1,0 +1,815 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 719px;
+  width: 1487px;
+}
+
+.photo-header {
+  width: 693px;
+  height: 598px;
+  margin-top: 177px;
+  margin-left: -200px;
+  /* margin-left: 744px; */
+}
+
+.header-text {
+  width: 500px;
+  height: 338px;
+  margin-top: 250px;
+  margin-left: 12%;
+}
+.dotted {
+  position: absolute;
+  width: 131.58px;
+  height: 115px;
+  margin-top: -200px;
+  margin-left: -5px;
+  /* opacity: 30%; */
+}
+
+.header-text h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.header-text p {
+  color: rgba(125, 121, 135, 1);
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.header-text button {
+  width: 200px;
+  height: 56px;
+  background-color: rgba(69, 143, 246, 1);
+  border-radius: 55px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 160px;
+  height: 41px;
+  margin-top: -40px;
+  margin-left: 191px;
+}
+
+.t {
+  width: 41px;
+  height: 41px;
+  background-color: rgba(69, 143, 246, 1);
+  text-align: center;
+  border-radius: 50%;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32.63px;
+  /* margin-top: 2px; */
+  position: relative;
+}
+
+.t::before {
+  content: "T";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.text {
+  width: 107px;
+  height: 30px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.12px;
+  margin-top: 6px;
+}
+
+.nabar {
+  width: 590px;
+  height: 23px;
+  margin-top: 70px;
+  margin-left: 850px;
+  color: rgba(31, 21, 52, 1);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-decoration: none ; */
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22.59px;
+  color: rgba(31, 21, 52, 1);
+}
+
+li a {
+  text-decoration: none;
+}
+
+.home {
+  height: 23px;
+  width: 51px;
+}
+
+.doctor {
+  height: 23px;
+  width: 140px;
+}
+
+.app {
+  height: 23px;
+  width: 44px;
+}
+
+.testimonal {
+  height: 23px;
+  width: 104px;
+}
+
+.about {
+  height: 23px;
+  width: 96px;
+}
+
+.outerServices {
+  height: 100vh;
+  width: 100%;
+  border: 1.4px color(rgba(69, 143, 246, 1));
+  /* position: absolute; */
+  top: 965px;
+}
+
+.textServices {
+  width: 952px;
+  height: 177px;
+  margin-top: 100px;
+  margin-left: 20%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.textServices h2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.textServices img {
+  width: 56px;
+  height: 2px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.textServices p {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(125, 121, 135, 1);
+  margin-top: 20px;
+}
+
+.containerServices {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 12%;
+  margin-top: 8%;
+  position: relative;
+  /* background-size: cover; */
+  z-index: 1;
+}
+
+.bgimg {
+  width: 937.95px;
+  height: 671.35px;
+  position: absolute;
+  background-size: cover;
+  margin-top: -150px;
+  z-index: -1;
+}
+
+.bgDotted {
+  width: 131.58px;
+  height: 115px;
+  position: absolute;
+  margin-left: 1195px;
+  margin-top: 440px;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.box {
+  width: 350px;
+  height: 354px;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px 30px rgba(229, 233, 246, 0.4);
+  margin: 5px;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.box h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  margin-left: 20px;
+  margin-left: 60px;
+}
+
+.box p {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(125, 121, 135, 1);
+  margin-left: 60px;
+}
+
+.box img {
+  margin-left: 60px;
+  margin-top: 70px;
+}
+
+.search img {
+  width: 91.98px;
+  height: 90px;
+}
+
+.onlinePharmacy img {
+  width: 61.86px;
+  height: 85px;
+}
+
+.consultation img {
+  width: 62.29px;
+  height: 95px;
+}
+
+.detailInfo img {
+  width: 67.08px;
+  height: 95px;
+}
+
+.emergency img {
+  width: 80px;
+  height: 71.15px;
+}
+
+.tracking img {
+  width: 69.42px;
+  height: 95px;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 200px;
+  height: 60px;
+  margin-left: 40%;
+  margin-top: 80px;
+  border-radius: 55px;
+  border: 1px solid blue;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  color: rgba(69, 143, 246, 1);
+}
+
+.healthcare {
+  width: 1273px;
+  height: 477px;
+  /* height: 100vh; */
+  /* width: 100%; */
+  margin-top: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12%;
+}
+
+.photosection {
+  width: 650px;
+  height: 477px;
+}
+.textHealthcare {
+  width: 486px;
+  height: 388px;
+  border: 0px solid rgba(69, 143, 246, 1);
+  margin-top: 50px;
+  margin-left: -200px;
+}
+
+.textHealthcare h4 {
+  font-family: "Mulish", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 20px;
+}
+
+.textHealthcare p {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: rgba(125, 121, 135, 1);
+  margin-top: 50px;
+}
+
+.healthbtn {
+  width: 200px;
+  height: 60px;
+  border: 1.4px solid rgba(69, 143, 246, 1);
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color: rgba(69, 143, 246, 1);
+  border-radius: 55px;
+  margin-top: 50px;
+}
+
+.downloadapp {
+  width: 1365.58px;
+  height: 675px;
+  display: flex;
+  justify-content: space-between;
+  /* justify-items: center; */
+  margin-top: 300px;
+  margin-left: 10%;
+  position: relative;
+  /* background-size: cover; */
+  z-index: 1;
+}
+
+.downloadtext {
+  width: 420px;
+  height: 375px;
+  /* margin-left: 12%; */
+  margin-top: 50px;
+  /* position: relative; */
+}
+
+.downloadtext h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  height: 56px;
+  width: 254px;
+}
+
+.downloadtext img {
+  width: 56px;
+  height: 2px;
+  margin-top: 70px;
+}
+
+.downloadtext p {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: rgba(125, 121, 135, 1);
+  height: 120px;
+  width: 420px;
+  margin-top: 30px;
+}
+
+.downloadphoto {
+  width: 665px;
+  height: 434px;
+  margin-left: 0px;
+}
+
+.dotted-download {
+  width: 131.58px;
+  height: 115px;
+  /* top: 2783px; */
+  /* left: 1514px; */
+  /* gap: 0px; */
+  /* opacity: 0.3px; */
+  margin-top: -200px;
+  margin-left: 180px;
+}
+
+.outerReview {
+  width: 1219.58px;
+  height: 502px;
+  /* margin-left: 12%; */
+  justify-self: center;
+}
+
+.innerReview {
+  width: 1120px;
+  height: 425px;
+  border-radius: 24px;
+  padding-top: 1px;
+  background-color: rgba(103, 195, 243, 1);
+}
+
+.innerReview h1 {
+  width: 522px;
+  height: 48px;
+  font-family: "Mulish", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 1);
+  justify-self: center;
+  margin-top: 70px;
+}
+
+.innerReview img {
+  width: 56px;
+  height: 2px;
+  margin-left: 50%;
+  margin-top: 20px;
+}
+
+.person {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic {
+  display: flex;
+  /* width: 350px; */
+  /* height: 150px; */
+}
+
+.pic img {
+  width: 141px;
+  height: 141px;
+}
+
+.name {
+  font-family: "Mulish", sans-serif;
+  /* height: 150px; */
+  /* width: 350px !important; */
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.name h4 {
+  width: 184px;
+  /* height: 48px; */
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.name p {
+  width: 119px;
+  /* height: 48px; */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+  margin-top: -15px;
+}
+
+.message {
+  width: 420px;
+  height: 120px;
+  font-family: "Mulish", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 150px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.arrow {
+  /* justify-self: center; */
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.article {
+  width: 100%;
+  /* height: 810px; */
+  margin-top: 180px;
+  position: relative;
+}
+
+.article h4 {
+  justify-self: center;
+  width: 462px;
+  height: 56px;
+  font-family: "Mulish", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 50px;
+}
+
+.article img {
+  width: 56px;
+  height: 2px;
+  margin-left: 47%;
+  margin-top: 30px;
+}
+
+.disease {
+  width: 350px;
+  height: 512px;
+  gap: 0px;
+  border-radius: 20px;
+  box-shadow: 20px 60px 50px 20px rgba(229, 233, 246, 0.4);
+  margin-top: 70px;
+}
+
+.herbal {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.disease h1 {
+  width: 251px;
+  height: 64px;
+  font-family: "Mulish", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.disease p {
+  width: 266px;
+  height: 84px;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(125, 121, 135, 1);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.buttonQ {
+  width: 266px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(64, 137, 237, 1);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cards {
+  /* margin-top: -200px; */
+  justify-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.artBtn {
+  width: 200px;
+  height: 60px;
+  border: 1.4px solid rgba(69, 143, 246, 1);
+  border-radius: 55px;
+  color: rgba(69, 143, 246, 1);
+  margin-top: 50px;
+  justify-content: center;
+  margin-left: 43%;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  text-decoration-skip-ink: none;
+  background-color: white;
+}
+
+footer {
+  /* position: fixed; */
+  margin-top: 100px;
+  bottom: 0;
+  width: 100%;
+  height: 523px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.last {
+  /* width: 100%; */
+  height: 432px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.logofooter {
+  width: 391px;
+  height: 201px;
+  margin-top: 100px;
+}
+
+.logofooter h1 {
+  width: 140px;
+  height: 35px;
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.12px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: unset;
+}
+
+.footerlogospan {
+  width: 17px;
+  height: 32px;
+  font-family: "Mulish", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.63px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  background-color: white;
+  color: rgba(91, 155, 243, 1);
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.logofooter h2 {
+  width: 391px;
+  height: 84px;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 15px;
+}
+
+.logofooter h3{
+  width: 391px;
+height: 28px;
+font-family: "Mulish", sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-top: 35px;
+}
+
+.company{
+  width: 195.5px;
+height: 214px;
+color: rgba(255, 255, 255, 1);
+margin-top: 100px;
+margin-left: 40px;
+}
+
+.company h1{
+  width: 92px;
+height: 60px;
+font-family: "Mulish", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+cursor: pointer;
+text-decoration: none;
+}
+
+.company p{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+  text-align: left;  
+  font-family: "Mulish", sans-serif;
+  cursor: pointer;
+}
+
+.region{
+  width: 195.5px;
+  height: 214px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.region h1{
+  width: 92px;
+height: 60px;
+font-family: "Mulish", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+cursor: pointer;
+}
+
+.region p{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+  text-align: left;  
+  font-family: "Mulish", sans-serif;
+  cursor: pointer;
+}
+
+.help{
+  width: 195.5px;
+  height: 214px;
+  color: rgba(255, 255, 255, 1); 
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.help h1{
+  width: 92px;
+height: 60px;
+font-family: "Mulish", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+cursor: pointer;
+} 
+
+.help p{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+  text-align: left;  
+  font-family: "Mulish", sans-serif;
+  cursor: pointer;
+}
+/* @media only screen and (max-width: 600px) { */
