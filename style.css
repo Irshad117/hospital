@@ -450,8 +450,8 @@ li a {
 .outerReview {
   width: 1219.58px;
   height: 502px;
-  /* margin-left: 12%; */
-  justify-self: center;
+  margin-left: 12%;
+  /* justify-self: center; */
 }
 
 .innerReview {
