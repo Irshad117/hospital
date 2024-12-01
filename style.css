@@ -76,8 +76,8 @@
   justify-content: space-evenly;
   width: 160px;
   height: 41px;
-  margin-top: -40px;
-  margin-left: 191px;
+  margin-top: 70px;
+  margin-left: -600px;
 }
 
 .t {
@@ -116,9 +116,11 @@
 .nabar {
   width: 590px;
   height: 23px;
-  margin-top: 70px;
+  margin-top: -40px;
   margin-left: 850px;
   color: rgba(31, 21, 52, 1);
+  position: fixed;
+  /* overflow:visible; */
 }
 
 ul {
